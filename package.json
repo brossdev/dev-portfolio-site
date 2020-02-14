@@ -5,8 +5,12 @@
   "main": "n/a",
   "scripts": {
     "develop": "yarn run clean && gatsby develop",
-    "build": "yarn run clean && gatsby build",
-    "deploy": "yarn run clean && gatsby build --prefix-paths && gh-pages -d public",
+    "build": "run-p build:**",
+    "build:app": "yarn run clean && gatsby build",
+    "build:lambda": "netlify-lambda build src/lambda",
+    "start": "run-p start:**",
+    "start:lambda": "netlify-lambda serve src/lambda",
+    "start:app": "yarn develop",
     "clean": "rimraf .cache public",
     "flow": "flow",
     "lint:js": "eslint --cache --ext .js,.jsx .",
@@ -38,6 +42,7 @@
     "disqus"
   ],
   "dependencies": {
+    "aws-sdk": "^2.618.0",
     "bluebird": "^3.7.2",
     "classnames": "^2.2.6",
     "codecov": "^3.6.4",

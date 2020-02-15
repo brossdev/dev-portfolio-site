@@ -1,5 +1,5 @@
 ---
-title: 'Software Developer'
+title: 'Software Engineer'
 template: 'page'
 socialImage: '/media/grey-macbook.jpg'
 ---

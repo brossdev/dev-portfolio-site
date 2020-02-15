@@ -21,6 +21,10 @@ module.exports = {
       path: '/blog',
     },
     {
+      label: 'My Setup',
+      path: '/pages/setup',
+    },
+    {
       label: 'Contact me',
       path: '/pages/contact',
     },

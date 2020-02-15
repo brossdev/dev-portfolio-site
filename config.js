@@ -1,10 +1,11 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
+  url: 'https://bobbyross.dev',
   pathPrefix: '/',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+  title: 'Bobby Ross Portfolio',
+  subtitle:
+    'Software Engineer with a love for React, Node, Serverless and all things Javascript',
   copyright: '© All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
@@ -12,38 +13,32 @@ module.exports = {
   useKatex: false,
   menu: [
     {
-      label: 'Articles',
-      path: '/'
+      label: 'Home',
+      path: '/',
     },
     {
-      label: 'About me',
-      path: '/pages/about'
+      label: 'Blog',
+      path: '/blog',
+    },
+    {
+      label: 'My Setup',
+      path: '/pages/setup',
     },
     {
       label: 'Contact me',
-      path: '/pages/contacts'
-    }
+      path: '/pages/contact',
+    },
   ],
   author: {
-    name: 'John Doe',
+    name: 'Bobby Ross',
     photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    bio:
+      'Software Engineer with a love for React, Node, Serverless and all things Javascript',
     contacts: {
       email: '',
-      facebook: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
-      rss: '',
-      vkontakte: '',
-      linkedin: '#',
-      instagram: '#',
-      line: '',
-      gitlab: '',
-      weibo: '',
-      codepen: '',
-      youtube: '',
-      soundcloud: '',
-    }
-  }
+      twitter: '@brossco85',
+      github: 'brossco85',
+      linkedin: 'bobby-ross-251a36b3',
+    },
+  },
 };

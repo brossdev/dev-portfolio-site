@@ -5,7 +5,7 @@ module.exports = {
   pathPrefix: '/',
   title: 'Bobby Ross Portfolio',
   subtitle:
-    'Software Engineer with a love for React, Serverless and all things Javascript',
+    'Software Engineer with a love for React, Node, Serverless and all things Javascript',
   copyright: '© All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
@@ -33,7 +33,7 @@ module.exports = {
     name: 'Bobby Ross',
     photo: '/photo.jpg',
     bio:
-      'Software Engineer with a love for React, Serverless and all things Javascript',
+      'Software Engineer with a love for React, Node, Serverless and all things Javascript',
     contacts: {
       email: '',
       twitter: '@brossco85',

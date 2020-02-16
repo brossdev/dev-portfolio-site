@@ -9,7 +9,7 @@ module.exports = {
   copyright: '© All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
-  googleAnalyticsId: 'UA-73379983-2',
+  googleAnalyticsId: 'UA-158644414-1',
   useKatex: false,
   menu: [
     {
@@ -26,11 +26,11 @@ module.exports = {
     },
     {
       label: 'My Setup',
-      path: '/pages/setup',
+      path: '/setup',
     },
     {
       label: 'Contact me',
-      path: '/pages/contact',
+      path: '/contact',
     },
   ],
   author: {
@@ -39,7 +39,7 @@ module.exports = {
     bio:
       'Software Engineer with a love for React, Node, Serverless and all things Javascript',
     contacts: {
-      email: '',
+      email: 'bobby.dev@pm.me',
       twitter: '@brossco85',
       github: 'brossco85',
       linkedin: 'bobby-ross-251a36b3',

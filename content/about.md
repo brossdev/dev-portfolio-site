@@ -1,31 +1,15 @@
 ---
 title: 'About Me'
 template: 'page'
-socialImage: '/media/image-4.jpg'
+socialImage: '/media/grey-macbook.jpg'
 ---
 
-Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat.
+I’m Bobby, I’m a software engineer based in Glasgow, Scotland. After working in financial services for 13 years i decided to pursue my passion and enrolled in [codeclan](https://codeclan.com/) - a coding boot camp based in Edinburgh.
 
-Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui.
 
-![Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.](/media/image-4.jpg)
+Since completing Codeclan in January  2017, I’ve worked for a number of start ups primarily focused on fin tech. I’m currently employed as a Senior Developer at Soar, a small fin tech startup aiming to bring modern banking technology to credit unions. I also work with a number of freelance clients to help bring their ideas to life.
 
-_Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi._
 
-## Header Level 2
+![“”](/media/image-4.jpg)
 
-Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.
-
-- **Lorem ipsum** dolor sit amet, consectetuer adipiscing elit.
-- Aliquam tincidunt mauris eu risus.
-- Vestibulum auctor dapibus neque.
-
-### Header Level 3
-
-Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec **consectetuer** ligula vulputate sem tristique cursus. Nam nulla quam, gravida non, commodo a, sodales sit amet, nisi.
-
-Pellentesque fermentum dolor. Aliquam quam lectus, facilisis auctor, ultrices ut, elementum vulputate, nunc.
-
-#### Header Level 4
-
-Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+In my spare time, i like to travel with my wife and dog, I’m a huge gamer and also love to read and learn what’s new in the Developer Community!

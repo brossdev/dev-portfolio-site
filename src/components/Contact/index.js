@@ -20,7 +20,7 @@ export default class Index extends React.Component {
   handleSubmit = e => {
     e.preventDefault();
     const form = e.target;
-    fetch('/.netlify/functions/contactUs', {
+    fetch('/.netlify/functions/contact-us', {
       method: 'POST',
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
       body: encode({
@@ -34,63 +34,61 @@ export default class Index extends React.Component {
 
   render() {
     return (
-      <article>
-        <form
-          name="contact"
-          method="post"
-          action="/contact/thanks/"
-          data-netlify="true"
-          data-netlify-honeypot="bot-field"
-          onSubmit={this.handleSubmit}
-        >
-          {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
-          <input type="hidden" name="form-name" value="contact" />
-          <div hidden>
-            <label>
-              Don’t fill this out:{' '}
-              <input name="bot-field" onChange={this.handleChange} />
-            </label>
-          </div>
+      <form
+        name="contact"
+        method="post"
+        action="/contact/thanks/"
+        data-netlify="true"
+        data-netlify-honeypot="bot-field"
+        onSubmit={this.handleSubmit}
+      >
+        {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
+        <input type="hidden" name="form-name" value="contact" />
+        <div hidden>
+          <label>
+            Don’t fill this out:{' '}
+            <input name="bot-field" onChange={this.handleChange} />
+          </label>
+        </div>
+        <div>
+          <label htmlFor={'name'}>Your name</label>
           <div>
-            <label htmlFor={'name'}>Your name</label>
-            <div>
-              <input
-                type={'text'}
-                name={'name'}
-                onChange={this.handleChange}
-                id={'name'}
-                required={true}
-              />
-            </div>
+            <input
+              type={'text'}
+              name={'name'}
+              onChange={this.handleChange}
+              id={'name'}
+              required={true}
+            />
           </div>
+        </div>
+        <div>
+          <label htmlFor={'email'}>Email</label>
           <div>
-            <label htmlFor={'email'}>Email</label>
-            <div>
-              <input
-                type={'email'}
-                name={'email'}
-                onChange={this.handleChange}
-                id={'email'}
-                required={true}
-              />
-            </div>
+            <input
+              type={'email'}
+              name={'email'}
+              onChange={this.handleChange}
+              id={'email'}
+              required={true}
+            />
           </div>
+        </div>
+        <div>
+          <label htmlFor={'message'}>Message</label>
           <div>
-            <label htmlFor={'message'}>Message</label>
-            <div>
-              <textarea
-                name={'message'}
-                onChange={this.handleChange}
-                id={'message'}
-                required={true}
-              />
-            </div>
+            <textarea
+              name={'message'}
+              onChange={this.handleChange}
+              id={'message'}
+              required={true}
+            />
           </div>
-          <div>
-            <button type="submit">Send</button>
-          </div>
-        </form>
-      </article>
+        </div>
+        <div>
+          <button type="submit">Send</button>
+        </div>
+      </form>
     );
   }
 }

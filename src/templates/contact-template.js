@@ -2,6 +2,7 @@ import React from 'react';
 import { navigate } from 'gatsby-link';
 import Sidebar from '../components/Sidebar';
 import Layout from '../components/Layout';
+import Page from '../components/Page';
 import Contact from '../components/Contact';
 import { useSiteMetadata } from '../hooks';
 
@@ -11,9 +12,9 @@ const NotFoundTemplate = () => {
   return (
     <Layout title={`Contact Me - ${title}`} description={subtitle}>
       <Sidebar />
-      <Contact title="Contact Me">
-        <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
-      </Contact>
+      <Page title="Contact Me">
+        <Contact></Contact>
+      </Page>
     </Layout>
   );
 };

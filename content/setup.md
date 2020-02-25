@@ -4,8 +4,6 @@ template: 'page'
 socialImage: '/media/image-4.jpg'
 ---
 
-
-
 Thought it could be helpful to some people if i list my Developer/App Setup used for all personal/professional development
 
 
@@ -17,9 +15,8 @@ Apple Keyboard
 Apple Trackpad 2
 
 
-
 # Browser Extensions
-1 Password
+[1Password](https://1password.com/) Password Manager i couldn’t live without (Desktop App Needed)
 
 
 # Editor
@@ -35,23 +32,19 @@ GQL One
 
 # Desktop Apps
 Brave
-Duck Duck Go
+[Brave Browser](https://brave.com/) Privacy focused Browser Built on Chromium
+[DuckDuckGo](https://duckduckgo.com/) Privacy focused Search engine
 Alfred
-1 Password
+[1Password](https://1password.com/) Password Manager i couldn’t live without 
 Kitty Terminal
 Dash
 Proton VPN
 Proton Mail (Bridge)
+WIFI
 
 # Mobile Apps
 Working Copy
 IA Writer
 Github App (Beta)
 Blink Shell
-
-
-Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui.
-
-![Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.](/media/image-4.jpg)
-
-Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.
+Textastic

@@ -44,8 +44,8 @@ Thought it could be helpful to some people if i list my Developer/App Setup used
 - [WIFI Signal](https://apps.apple.com/us/app/wifi-signal-status-monitor/id525912054?mt=12) - enhanced wifi information i find really useful
 
 # Mobile Apps
-- Working Copy
-- IA Writer
-- Github App (Beta)
-- Blink Shell
-- Textastic
+- [Working Copy](https://workingcopyapp.com/)- IOS Git Client
+- [IA Writer](https://ia.net/writer) - Excellent Markdown Editor for IOS
+- [Github App (Beta)](https://github.com/mobile/) - Still in Beta but I’m finding it really useful to view and merge PRs on GitHub’s mobile app
+- [Blink Shell](https://blink.sh/) - Fantastic Terminal App for the IPad
+- [Textastic](https://www.textasticapp.com/) - IOS app great for on to go code changes

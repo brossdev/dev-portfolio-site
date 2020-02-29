@@ -25,8 +25,8 @@ module.exports = {
       path: '/blog',
     },
     {
-      label: 'My Setup',
-      path: '/setup',
+      label: 'Uses',
+      path: '/uses',
     },
     {
       label: 'Contact me',

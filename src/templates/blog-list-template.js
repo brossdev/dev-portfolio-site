@@ -34,12 +34,6 @@ const BlogTemplate = ({ data, pageContext }: Props) => {
       <Sidebar isIndex />
       <Page>
         <Feed edges={edges} />
-        <Pagination
-          prevPagePath={prevPagePath}
-          nextPagePath={nextPagePath}
-          hasPrevPage={hasPrevPage}
-          hasNextPage={hasNextPage}
-        />
       </Page>
     </Layout>
   );

@@ -6,7 +6,7 @@ socialImage: '/media/image-4.jpg'
 
 Thought it could be helpful to some people if i list my Developer/App Setup used for all personal/professional development
 
-# Desktop/Hardware Setup
+## Desktop/Hardware Setup
 
 - [MacBook Pro (13-inch, 2016)](https://www.apple.com/macbook-pro-13/) - My Personal Laptop
 - [iPad Pro (11-inch, 2018)](https://www.apple.com/ipad-pro/) - My Personal Ipad Pro
@@ -15,23 +15,23 @@ Thought it could be helpful to some people if i list my Developer/App Setup used
 - [Apple Trackpad 2](https://www.apple.com/uk/shop/product/MJ2R2Z/A/magic-trackpad-2-silver) - i have this in space grey
 - [Unifi Dream Machine](https://eu.store.ui.com/products/unifi-dream-machine) - Powerful and Secure home internet setup i recently bought, highly recommended
 
-# Browser Extensions
+## Browser Extensions
 
 - [1Password](https://chrome.google.com/webstore/detail/1password-extension-deskt/aomjjhallfgjeglblehebfpbcfeobpgk) - Password Manager i couldn’t live without (Desktop App Needed)
 
-# Editor
+## Editor
 
 - [VS Code](https://code.visualstudio.com/) - My editor of choice
 - [Dracula Soft Theme](https://draculatheme.com/visual-studio-code/) - My current preferred theme
 
-# Editor Extension
+#### Editor Extension
 
 - Eslint
 - Prettier
 - import Cost
 - GQL One
 
-# Desktop Apps
+## Desktop Apps
 
 - [Brave Browser](https://brave.com/) - Privacy focused Browser Built on Chromium
 - [DuckDuckGo](https://duckduckgo.com/) - Privacy focused Search engine
@@ -43,7 +43,7 @@ Thought it could be helpful to some people if i list my Developer/App Setup used
 - [Proton Mail](https://protonmail.com/) - secure encrypted mail service
 - [WIFI Signal](https://apps.apple.com/us/app/wifi-signal-status-monitor/id525912054?mt=12) - enhanced wifi information i find really useful
 
-# Mobile Apps
+## Mobile Apps
 
 - [Working Copy](https://workingcopyapp.com/)- IOS Git Client
 - [IA Writer](https://ia.net/writer) - Excellent Markdown Editor for IOS

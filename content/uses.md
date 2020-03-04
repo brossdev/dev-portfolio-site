@@ -8,15 +8,16 @@ Thought it could be helpful to some people if i list my Developer/App Setup used
 
 # Desktop/Hardware Setup
 
-- [MacBook Pro (13-inch, 2016)](https://www.apple.com/macbook-pro-13/)
-- [iPad Pro (11-inch, 2018)](https://www.apple.com/ipad-pro/)
-- [24" LG Ultrafine 4k Monitor](https://www.apple.com/uk/shop/product/HMUA2B/A/lg-ultrafine-4k-display)
-- [Apple Keyboard](https://www.apple.com/uk/shop/product/MRMH2B/A/magic-keyboard-with-numeric-keypad-british-english-space-grey)
-- [Apple Trackpad 2](https://www.apple.com/uk/shop/product/MJ2R2Z/A/magic-trackpad-2-silver)
+- [MacBook Pro (13-inch, 2016)](https://www.apple.com/macbook-pro-13/) - My Personal Laptop
+- [iPad Pro (11-inch, 2018)](https://www.apple.com/ipad-pro/) - My Personal Ipad Pro
+- [24" LG Ultrafine 4k Monitor](https://www.apple.com/uk/shop/product/HMUA2B/A/lg-ultrafine-4k-display) - External Monitor in my home office
+- [Apple Keyboard](https://www.apple.com/uk/shop/product/MRMH2B/A/magic-keyboard-with-numeric-keypad-british-english-space-grey) - Bluetooth Trackpad
+- [Apple Trackpad 2](https://www.apple.com/uk/shop/product/MJ2R2Z/A/magic-trackpad-2-silver) - i have this in space grey
+- [Unifi Dream Machine](https://eu.store.ui.com/products/unifi-dream-machine) - Powerful and Secure home internet setup i recently bought, highly recommended
 
 # Browser Extensions
 
-- [1Password](https://chrome.google.com/webstore/detail/1password-extension-deskt/aomjjhallfgjeglblehebfpbcfeobpgk) Password Manager i couldn’t live without (Desktop App Needed)
+- [1Password](https://chrome.google.com/webstore/detail/1password-extension-deskt/aomjjhallfgjeglblehebfpbcfeobpgk) - Password Manager i couldn’t live without (Desktop App Needed)
 
 # Editor
 
@@ -25,7 +26,6 @@ Thought it could be helpful to some people if i list my Developer/App Setup used
 
 # Editor Extension
 
-- Deucalion dark Theme
 - Eslint
 - Prettier
 - import Cost

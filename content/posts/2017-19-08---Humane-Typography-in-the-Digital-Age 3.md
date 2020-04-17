@@ -1,20 +1,22 @@
 ---
-title: Humane Typography in the Digital Age
-date: "2017-08-19T22:40:32.169Z"
+title: Node, Serverless and the IPad Pro Part 1
+date: "2020-04-17T10:00:00.169Z"
 template: "post"
-draft: false
-slug: "humane-typography-in-the-digital-age"
-category: "Typography"
+draft: true
+slug: "node-serverless-and-the-ipad-pro-part-1"
+category: "iPad-Development"
 tags:
-  - "Design"
-  - "Typography"
+  - "Nodejs"
+  - "Serverless"
   - "Web Development"
-description: "An Essay on Typography by Eric Gill takes the reader back to the year 1930. The year when a conflict between two worlds came to its term. The machines of the industrial world finally took over the handicrafts."
+  - “IPad Pro”
+  - JavaScript
+description: "Part 1 of 3 part tutorial on how to setup an IPad Pro for Developing Serverless API’s using Node Js."
 socialImage: "/media/42-line-bible.jpg"
 ---
 
-- [The first transition](#the-first-transition)
-- [The digital age](#the-digital-age)
+- [Apps](#the-first-transition)
+- [Prerequisites](#the-digital-age)
 - [Loss of humanity through transitions](#loss-of-humanity-through-transitions)
 - [Chasing perfection](#chasing-perfection)
 
@@ -24,11 +26,10 @@ The typography of this industrial age was no longer handcrafted. Mass production
 
 But the victory of the industrialism didn’t mean that the craftsmen were completely extinct. The two worlds continued to coexist independently. Each recognising the good in the other — the power of industrialism and the humanity of craftsmanship. This was the second transition that would strip typography of a part of its humanity. We have to go 500 years back in time to meet the first one.
 
-## The first transition
+## Apps
 
-A similar conflict emerged after the invention of the first printing press in Europe. Johannes Gutenberg invented movable type and used it to produce different compositions. His workshop could print up to 240 impressions per hour. Until then, the books were being copied by hand. All the books were handwritten and decorated with hand drawn ornaments and figures. A process of copying a book was long but each book, even a copy, was a work of art.
+[Blink Shell](https://apps.apple.com/gb/app/blink-shell-mosh-ssh-client/id1156707581) £19.99 from the App Store
 
-The first printed books were, at first, perceived as inferior to the handwritten ones. They were smaller and cheaper to produce. Movable type provided the printers with flexibility that allowed them to print books in languages other than Latin. Gill describes the transition to industrialism as something that people needed and wanted. Something similar happened after the first printed books emerged. People wanted books in a language they understood and they wanted books they could take with them. They were hungry for knowledge and printed books satisfied this hunger.
 
 ![42-line-bible.jpg](/media/42-line-bible.jpg)
 
@@ -36,17 +37,27 @@ The first printed books were, at first, perceived as inferior to the handwritten
 
 But, through this transition, the book lost a large part of its humanity. The machine took over most of the process but craftsmanship was still a part of it. The typefaces were cut manually by the first punch cutters. The paper was made by hand. The illustrations and ornaments were still being hand drawn. These were the remains of the craftsmanship that went almost extinct in the times of Eric Gill.
 
-## The digital age
+## Prerequisites
 
-The first transition took away a large part of humanity from written communication. Industrialisation, the second transition described by Eric Gill, took away most of what was left. But it’s the third transition that stripped it naked. Typefaces are faceless these days. They’re just fonts on our computers. Hardly anyone knows their stories. Hardly anyone cares. Flicking through thousands of typefaces and finding the “right one” is a matter of minutes.
+### Digital Ocean Account
+For this tutorial we will be setting up a Virtual Private Server(VPS) on a digital ocean droplet, for that you will need a digital ocean account. Digital Ocean is free to sign up for and often has a promotion where you will get free credit for doing so, so its a great place to try out setting up your own VPS!
 
-> In the new computer age the proliferation of typefaces and type manipulations represents a new level of visual pollution threatening our culture. Out of thousands of typefaces, all we need are a few basic ones, and trash the rest.
->
-— Massimo Vignelli
+### Download Blink Shell
+As above for this tutorial you will need to purchase and setup Blink Shell on your ipad.
 
-Typography is not about typefaces. It’s not about what looks best, it’s about what feels right. What communicates the message best. Typography, in its essence, is about the message. “Typographical design should perform optically what the speaker creates through voice and gesture of his thoughts.”, as El Lissitzky, a famous Russian typographer, put it.
 
-## Loss of humanity through transitions
+
+## Introduction
+
+Let's just address the elephant in the room first - Developing on an ipad is not the same as developing on a laptop or desktop, period. Although the Ipad Pro is an extremely capable machine, PadOS for now is pretty limited on what you can do with all that power, particularly as a developer who wants to compile code, and run sometimes multiple servers locally. So why bother? for me my ipad is my favourite piece of hardware, i use it to manage my day to day life, in and out of work and with PadOS 13.4 bringing trackpad support to the IPad, its becoming my go to for most tasks - just not development, yet.  But that doesn't mean its no possible,  yes there are some trade offs (see below), but if you are like me and you like a challenge why not embrace the challenge and maybe learn some things along the way, so lets get started.
+
+## Trade Offs
+1. JavaScript Package Managers - if like me you write a lot of javascript code you are going to be familiar with package management, npm, deno etc. Installing and using open source packages is not currently doable on the ipad.
+2. Local servers - There are some apps that emulate ways around this - playjs, pythonista , however right not in my experience its just not possible to run a react app on a local webpack server or run a simple nodejs server for local development.
+3. Linting and code formatting- one of the first things i do on any JavaScript project is install Eslint and prettier, there are some great code editors on the ipad, by at the time of writing I don’t know of any that let you  lint and format your code on save the way vs code does.
+
+
+## Setting up the digital ocean droplet
 
 Each transition took away a part of humanity from written language. Handwritten books being the most humane form and the digital typefaces being the least. Overuse of Helvetica is a good example. Messages are being told in a typeface just because it’s a safe option. It’s always there. Everyone knows it but yet, nobody knows it. Stop someone on the street and ask him what Helvetica is? Ask a designer the same question. Ask him where it came from, when, why and who designed it. Most of them will fail to answer these questions. Most of them used it in their precious projects but they still don’t spot it in the street.
 

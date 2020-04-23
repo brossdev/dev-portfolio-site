@@ -6,7 +6,7 @@ module.exports = {
   title: 'Bobby Ross Portfolio',
   subtitle:
     'Software Engineer with a love for React, Node, Serverless and all things Javascript',
-  copyright: '© All rights reserved.',
+  copyright: '© 2020 Bobby Ross All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
   googleAnalyticsId: 'UA-158644414-1',
@@ -37,7 +37,7 @@ module.exports = {
     name: 'Bobby Ross',
     photo: '/photo.jpg',
     bio:
-      'Software Engineer with a love for React, Node, Serverless and all things Javascript',
+      'Software Engineer with a love for React, Node, Serverless and all things Javascript!',
     contacts: {
       email: 'bobby.dev@pm.me',
       twitter: '@brossco85',

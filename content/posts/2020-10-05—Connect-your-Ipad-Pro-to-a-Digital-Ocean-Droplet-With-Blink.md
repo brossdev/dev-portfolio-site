@@ -10,7 +10,7 @@ tags:
   - 'Web Development'
   - 'IPad Pro'
   - 'VPS'
-description: 'Part 1 of 3 part tutorial on how to setup an IPad Pro for Developing Serverless API’s using Node Js.'
+description: 'Connect your IPad Pro to a Digital Ocean Droplet'
 socialImage: '/media/ipad-pro-smart-keyboard.jpg'
 ---
 

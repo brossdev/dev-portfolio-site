@@ -1,25 +1,20 @@
 ---
-title: Node, Serverless and the IPad Pro Part 1
-date: '2020-04-17T10:00:00.169Z'
+title: Connect your iPad Pro to a Digital Ocean Droplet
+date: '2020-04-28T10:00:00.169Z'
 template: 'post'
 draft: true
-slug: 'node-serverless-and-the-ipad-pro-part-1'
+slug: 'connect-your-ipad-pro-to-a-digital-ocean-droplet'
 category: 'IPad-Development'
 tags:
-  - 'Nodejs'
-  - 'Serverless'
+  - 'Digital Ocean'
   - 'Web Development'
   - 'IPad Pro'
-  - 'JavaScript'
-description: 'Part 1 of 3 part tutorial on how to setup an IPad Pro for Developing Serverless API’s using Node Js.'
+  - 'VPS'
+description: 'Connect your IPad Pro to a remote VPS for cloud based development or server maintenance'
 socialImage: '/media/ipad-pro-smart-keyboard.jpg'
 ---
 
 ![Ipad Pro Smart Keyboard](/media/ipad-pro-smart-keyboard.jpg)
-
-- [Apps](#Apps)
-- [Prerequisites](#Prerequisites)
-- [Introduction](#Introduction)
 
 ## Apps
 
@@ -37,23 +32,11 @@ As above for this tutorial you will need to purchase and setup Blink Shell on yo
 
 ## Introduction
 
-Let's just address the elephant in the room first - Developing on an ipad is not the same as developing on a laptop or desktop, period. Although the Ipad Pro is an extremely capable machine, PadOS for now is pretty limited on what you can do with all that power, particularly as a developer who wants to compile code, and run sometimes multiple servers locally. So why bother? for me my ipad is my favourite piece of hardware, i use it to manage my day to day life, in and out of work and with PadOS 13.4 bringing trackpad support to the IPad, its becoming my go to for most tasks - just not development, yet. But that doesn't mean its no possible, yes there are some trade offs (see below), but if you are like me and you like a challenge why not embrace the challenge and maybe learn some things along the way, so lets get started.
-
-## Trade Offs
-
-1. JavaScript Package Managers - if like me you write a lot of javascript code you are going to be familiar with package management, npm, deno etc. Installing and using open source packages is not currently doable on the ipad.
-2. Local servers - There are some apps that emulate ways around this - playjs, pythonista , however right not in my experience its just not possible to run a react app on a local webpack server or run a simple nodejs server for local development.
-3. Linting and code formatting- one of the first things i do on any JavaScript project is install Eslint and prettier, there are some great code editors on the ipad, by at the time of writing I don’t know of any that let you lint and format your code on save the way vs code does.
-
-## Alternatives - Cloud Based IDE
-
-Cloud based IDE’s are extremely powerful tools for a developer, rather than rely on having a powerful machine which can run vs code with your many plugins, you can create customised editors which run on a remote server connected via the browser, powerful but at the time of writing using cloud 9 or visual studio online through the ipad browser is not a great experience.
+Let's just address the elephant in the room first - Developing on an ipad is not the same as developing on a laptop or desktop, period. Although the Ipad Pro is an extremely capable machine, PadOS for now is pretty limited on what you can do with all that power, particularly as a developer who wants to compile code, and run sometimes multiple servers locally. So why bother? for me my ipad is my favourite piece of hardware, i use it to manage my day to day life, in and out of work and with PadOS 13.4 bringing trackpad support to the IPad, its becoming my go to for most tasks - just not development, yet. But that doesn't mean its not possible, yes there are some trade offs, but if you are like me and you like a challenge why not embrace the challenge and maybe learn some things along the way, so lets get started with part 1.
 
 ## Getting Started
 
-That brought me to using a cloud hosted VPS as my best solution. Although this workflow may not be for everyone the purpose of this guide is to document how I use my ipad for developing Front and Backend JavaScript applications, so lets get started.
-
-First if you will need to sign up for a digital ocean account if you don't already have one , it's free to sign up and you can use your google or github account. providing you choose a low tier droplet it shouldn't cost you in more than a few pounds per month to host the environment .
+First up you will need to sign up for a digital ocean account if you don't already have one , it's free to sign up and you can use your google or github account. Depending on your use case, if you choose a low tier droplet it shouldn't cost you any more than a few pounds per month to host the environment .
 
 ## Setting up the digital ocean droplet
 

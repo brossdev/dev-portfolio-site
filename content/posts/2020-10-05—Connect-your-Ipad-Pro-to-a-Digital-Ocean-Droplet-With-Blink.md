@@ -16,9 +16,10 @@ socialImage: '/media/ipad-pro-smart-keyboard.jpg'
 
 ![Ipad Pro Smart Keyboard](/media/ipad-pro-smart-keyboard.jpg)
 
-- [Apps](#Apps)
-- [Prerequisites](#Prerequisites)
-- [Introduction](#Introduction)
+- [Apps](##Apps)
+- [Prerequisites](##Prerequisites)
+- [Introduction](##Introduction)
+- [Getting Started](##Getting Started)
 
 ## Apps
 
@@ -165,4 +166,4 @@ mosh remote-user@your.ip.address
 
 Note - digital ocean has a great write up and adding new users to the VPS in their tutorial pages which is really useful for debugging issues.
 
-And that's it, you can now successfully shh into to your Digital Ocean Droplet with your IPad Pro! This is a 3 part series, part 2 will focus on how to configure your VPS for initialising and managing your JavaScript packages.
+And that's it, you can now successfully shh into to your Digital Ocean Droplet with your IPad Pro!

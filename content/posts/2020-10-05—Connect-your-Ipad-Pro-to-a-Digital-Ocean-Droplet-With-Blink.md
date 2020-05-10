@@ -16,10 +16,10 @@ socialImage: '/media/ipad-pro-smart-keyboard.jpg'
 
 ![Ipad Pro Smart Keyboard](/media/ipad-pro-smart-keyboard.jpg)
 
-- [Apps](##Apps)
-- [Prerequisites](##Prerequisites)
-- [Introduction](##Introduction)
-- [Getting Started](##Getting Started)
+- [Apps](#apps)
+- [Prerequisites](#prerequisites)
+- [Introduction](#introduction)
+- [Getting Started](#getting-started)
 
 ## Apps
 

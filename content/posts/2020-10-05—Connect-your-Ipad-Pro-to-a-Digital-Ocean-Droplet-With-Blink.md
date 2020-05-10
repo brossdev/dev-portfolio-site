@@ -1,8 +1,8 @@
 ---
 title: Connect your iPad Pro to a Digital Ocean Droplet
-date: '2020-04-17T10:00:00.169Z'
+date: '2020-05-10T10:00:00.169Z'
 template: 'post'
-draft: true
+draft: false
 slug: 'connect-your-ipad-pro-to-a-digital-ocean-droplet'
 category: 'IPad-Development'
 tags:

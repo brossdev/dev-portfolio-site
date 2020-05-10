@@ -45,13 +45,10 @@ Let's just address the elephant in the room first - Developing on an ipad is not
 2. Local servers - There are some apps that emulate ways around this - playjs, pythonista , however right not in my experience its just not possible to run a react app on a local webpack server or run a simple nodejs server for local development.
 3. Linting and code formatting- one of the first things i do on any JavaScript project is install Eslint and prettier, there are some great code editors on the ipad, by at the time of writing I don’t know of any that let you lint and format your code on save the way vs code does.
 
-## Alternatives - Cloud Based IDE
-
-Cloud based IDE’s are extremely powerful tools for a developer, rather than rely on having a powerful machine which can run vs code with your many plugins, you can create customised editors which run on a remote server connected via the browser, powerful but at the time of writing using cloud 9 or visual studio online through the ipad browser is not a great experience.
 
 ## Getting Started
 
-That brought me to using a cloud hosted VPS as my best solution. Although this workflow may not be for everyone the purpose of this guide is to document how I use my ipad for developing Front and Backend JavaScript applications, so lets get started.
+ Although this workflow may not be for everyone the purpose of this guide is to document how I use my ipad for developing Front and Backend JavaScript applications, so lets get started.
 
 First if you will need to sign up for a digital ocean account if you don't already have one , it's free to sign up and you can use your google or github account. providing you choose a low tier droplet it shouldn't cost you in more than a few pounds per month to host the environment .
 

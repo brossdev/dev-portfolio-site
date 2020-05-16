@@ -5,7 +5,7 @@
   "main": "n/a",
   "scripts": {
     "develop": "yarn run clean && gatsby develop",
-    "build": "run-p build:**",
+    "build": "run-p GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES=true gatsby build:** --log-pages",
     "build:app": "yarn run clean && gatsby build",
     "build:lambda": "netlify-lambda build src/lambda",
     "start": "run-p start:**",
@@ -48,7 +48,7 @@
     "bluebird": "^3.7.2",
     "classnames": "^2.2.6",
     "codecov": "^3.6.5",
-    "gatsby": "^2.20.25",
+    "gatsby": "^2.20.4",
     "gatsby-link": "^2.2.29",
     "gatsby-plugin-catch-links": "^2.1.25",
     "gatsby-plugin-feed": "^2.3.27",

@@ -193,6 +193,12 @@ module.exports = {
     'gatsby-plugin-offline',
     'gatsby-plugin-catch-links',
     'gatsby-plugin-react-helmet',
+      {
+    resolve: `gatsby-plugin-react-helmet-canonical-urls`,
+    options: {
+      siteUrl: `https://www.bobbyross.dev`,
+    },
+  },
     {
       resolve: 'gatsby-plugin-sass',
       options: {

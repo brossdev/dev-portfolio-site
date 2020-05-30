@@ -9,6 +9,7 @@ tags:
   - 'Digital Ocean'
   - 'Web Development'
   - 'IPad Pro'
+  - 'IPad Development'
   - 'VPS'
 description: 'Connect your IPad Pro to a Digital Ocean Droplet'
 socialImage: '/media/ipad-pro-smart-keyboard.jpg'
@@ -37,13 +38,7 @@ As above for this tutorial you will need to purchase and setup Blink Shell on yo
 
 ## Introduction
 
-Let's just address the elephant in the room first - Developing on an ipad is not the same as developing on a laptop or desktop, period. Although the Ipad Pro is an extremely capable machine, PadOS for now is pretty limited on what you can do with all that power, particularly as a developer who wants to compile code, and run sometimes multiple servers locally. So why bother? for me my ipad is my favourite piece of hardware, i use it to manage my day to day life, in and out of work and with PadOS 13.4 bringing trackpad support to the IPad, its becoming my go to for most tasks - just not development, yet. But that doesn't mean its no possible, yes there are some trade offs (see below), but if you are like me and you like a challenge why not embrace the challenge and maybe learn some things along the way, so lets get started.
-
-## Trade Offs
-
-1. JavaScript Package Managers - if like me you write a lot of javascript code you are going to be familiar with package management, npm, deno etc. Installing and using open source packages is not currently doable on the ipad.
-2. Local servers - There are some apps that emulate ways around this - playjs, pythonista , however right not in my experience its just not possible to run a react app on a local webpack server or run a simple nodejs server for local development.
-3. Linting and code formatting- one of the first things i do on any JavaScript project is install Eslint and prettier, there are some great code editors on the ipad, by at the time of writing I don’t know of any that let you lint and format your code on save the way vs code does.
+Let's just address the elephant in the room first - Developing on an ipad is not the same as developing on a laptop or desktop, period. Although the Ipad Pro is an extremely capable machine, PadOS for now is pretty limited on what you can do with all that power, particularly as a developer who wants to compile code, and run sometimes multiple servers locally. So why bother? for me my ipad is my favourite piece of hardware, i use it to manage my day to day life, in and out of work and with PadOS 13.4 bringing trackpad support to the IPad, its becoming my go to for most tasks - just not fulldevelopment, yet. But that doesn't mean its no possible, yes there are some trade offs, but if you are like me and you like a challenge why not embrace the challenge and maybe learn some things along the way, so lets get started.
 
 
 ## Getting Started

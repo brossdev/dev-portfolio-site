@@ -159,3 +159,5 @@ mosh remote-user@your.ip.address
 Note - digital ocean has a great write up and adding new users to the VPS in their tutorial pages which is really useful for debugging issues.
 
 And that's it, you can now successfully shh into to your Digital Ocean Droplet with your IPad Pro!
+
+did you find this useful? i've had alot of fun setting up my ipad for development over the last few months, i do everything from project planning, managing websites/servers to writing blogposts on my ipad. If you would be interested in finding out more about how i use my ipad , send me a message on twitter @brossco85 and i'll be happy to do a write up!

@@ -42,7 +42,7 @@ module.exports = {
       email: 'bobby.dev@pm.me',
       twitter: '@brossco85',
       instagram: 'bobbyross.dev',
-      github: 'brossco85',
+      github: 'brossdev',
       linkedin: 'bobby-ross-251a36b3',
     },
   },

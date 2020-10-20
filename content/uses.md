@@ -8,7 +8,7 @@ Thought it could be helpful to some people if i list my Developer/App Setup used
 
 ## Desktop/Hardware Setup
 
-- [MacBook Pro (13-inch, 2016)](https://www.apple.com/macbook-pro-13/) - My Personal Laptop
+- [MacBook Pro (16-inch, 2019)](https://www.apple.com/macbook-pro-16/) - My Personal Laptop
 - [iPad Pro (12.9-inch, 2020)](https://www.apple.com/ipad-pro/) - My Personal Ipad Pro
 - [24" LG Ultrafine 4k Monitor](https://www.apple.com/uk/shop/product/HMUA2B/A/lg-ultrafine-4k-display) - External Monitor in my home office
 - [Apple Keyboard](https://www.apple.com/uk/shop/product/MRMH2B/A/magic-keyboard-with-numeric-keypad-british-english-space-grey) - Bluetooth Trackpad

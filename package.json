@@ -82,7 +82,7 @@
     "moment": "^2.24.0",
     "netlify-cms-app": "^2.11.13",
     "netlify-lambda": "^1.6.3",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "normalize-scss": "^7.0.1",
     "prismjs": "^1.21.0",
     "react": "^16.13.1",
